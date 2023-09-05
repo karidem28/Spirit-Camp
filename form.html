@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="icon" href="images/favicon.ico">
+		<title>REGISTRATION</title>
+		<link rel="stylesheet" href="../Spirit Time/css/style3.css" />
+	</head>
+	<body>
+		<div class="container">
+			<div class="form-box">
+				<h1>REGISTRATION</h1>
+				<form action="https://wierzba.wzks.uj.edu.pl/~escibisz/DH/test.php" method="POST">
+					<label for="firstname" style="color: #ccc; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Name :</label><br />
+					<input type="text" id="firstname" name="firstname" placeholder="Enter your name.." /><br />
+					<label for="lastname" style="color: #ccc; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Surname :</label><br />
+					<input type="text" id="lastname" name="lastname" placeholder="Enter your surname.." /><br />
+					<label for="birth-date" style="color: #ccc; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Birth Date :</label><br />
+					<input type="date" id="birth-date" name="birth-date" placeholder="Enter your birth date.." /><br />
+                    <div id="birthHelp" class="form-text">*age restriction 15+</div>
+					<label for="email" style="color: #ccc; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Email:</label><br />
+					<input type="email" id="email" name="email" placeholder="Enter your email.." /><br />
+                    <div id="emailHelp" class="form-text">*We'll never share your email with anyone else.</div>
+					<label for="numer-telefonu" style="color: #ccc; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Phone number :</label><br />
+					<input type="tel" id="numer-telefonu" name="numer-telefonu" placeholder="Enter your phone number.." /><br />
+					<label for="passport-number" style="color: #ccc; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Passport number :</label><br />
+                    <input type="tel" id="passport-number" name="passport-number" placeholder="Enter passport number.." /><br />
+					<label for="uwagi" style="color: #ccc; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Additional information :</label><br />
+					<textarea name="uwagi" id="uwagi" cols="30" rows="5" placeholder="Write additional information, if it is needed.."></textarea> <br />
+					<label for="sprawdź" style="color: #ccc; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Check me</label>
+					<input type="checkbox" id="sprawdź" name="sprawdź" value="X" /> <br />
+					<button type="submit" id="button" >SEND</button>
+					<input id="reset" type="reset" value="START FROM THE BEGINNING" />
+				</form>
+			</div>
+		</div>
+	</body>
+</html>

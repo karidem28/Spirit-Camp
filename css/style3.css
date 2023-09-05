@@ -1,0 +1,91 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    background-color: #FFFFFF26;
+    padding: 30px;
+    font-size: 27px;
+    width: 100%;
+	height: 20%;
+    }
+  
+.mcontainer {
+    display: flex;
+    justify-content: end;
+    align-content: flex-end;
+}  
+  
+.mcontainer > ul > li > a:hover {
+    color: tomato;
+}
+
+.mcontainer > ul {
+    list-style: none;
+    display: flex;
+}
+
+.mcontainer > ul > li {
+    padding: 0px 30px;
+}
+
+.mcontainer > ul > li > a {
+    color: white;
+    text-decoration: none;
+}
+.container {
+	width: 100%;
+	height: 80%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    background-image: url(../images/holovna.f3eab045\ \(1\).png);
+}
+.form-box h1 {
+	text-transform: uppercase;
+	border-radius: 15px;
+	background-color: rgba(245, 239, 239, 0.5);
+	padding: 10px;
+    display: flex;
+    justify-content: center;
+	align-items: center;
+    
+}
+.form-box button:hover{
+	background-color: #ff6347;
+	color: white;
+}
+#reset:hover {
+	background-color: green;
+	color: white;
+}
+.form-box input, button, textarea {
+	color: white;
+	padding: 5px;
+	border-radius: 10px;
+	border: none;
+	font: small-caption;
+	background-color: rgba(39, 37, 37, 0.5);
+
+}
+
+.form-box{
+	padding: 30px;
+    margin: 0px 5px;
+	border-radius: 15px;
+	background-color: rgba(0,0,0,.8);
+}
+#reset, button {
+	background: rgba(245, 239, 239, 0.5);
+}
+
+.form-text {
+    padding: 0%;
+    margin: 0%;
+    font-size: 15px;
+    color: red;
+}
+
